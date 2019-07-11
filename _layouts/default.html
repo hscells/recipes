@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>{{ site.title  }}</title>
+        <link rel="stylesheet" href="/assets/picnic.min.css">
+        <style>
+main {
+    margin: auto;
+    margin-top: 120px;
+    max-width:640px;
+}
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="/" class="brand">
+                <span>{{ site.title }}</span>
+            </a>
+        </nav>
+        <main>
+            {{ content }}
+        </main>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+title: Harry's Recipes
+
+collections:
+    recipes:
+        output: true
+
+defaults:
+    - scope:
+        path: ""
+        type: "recipes"
+      values:
+        layout: recipes
