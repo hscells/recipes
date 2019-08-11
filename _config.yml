@@ -1,12 +1,14 @@
 title: Harry's Recipes
 
+exclude: ["search/"]
+
 collections:
-    recipes:
+    recipe:
         output: true
 
 defaults:
     - scope:
         path: ""
-        type: "recipes"
+        type: "recipe"
       values:
-        layout: recipes
+        layout: recipe

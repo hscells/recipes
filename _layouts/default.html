@@ -2,17 +2,21 @@
     <head>
         <title>{{ site.title  }}</title>
         <link rel="stylesheet" href="/recipes/assets/picnic.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
+html, body {
+    height: auto !important;
+}
 main {
-    margin: auto;
-    margin-top: 120px;
+    margin: 72px auto;
     max-width:640px;
+    padding: 1em;
 }
         </style>
     </head>
     <body>
         <nav>
-            <a href="/recipes" class="brand">
+            <a href="/recipes/" class="brand">
                 <span>{{ site.title }}</span>
             </a>
         </nav>
