@@ -5,7 +5,7 @@ ingredients:
  - black beans
  - coconut milk
  - diced tomatoes
- - onion
+ - white onion
  - garlic
  - curry powder
 method:

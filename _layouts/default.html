@@ -1,27 +1,35 @@
 <html>
-    <head>
-        <title>{{ site.title  }}</title>
-        <link rel="stylesheet" href="/recipes/assets/picnic.min.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <style>
-html, body {
-    height: auto !important;
-}
-main {
-    margin: 72px auto;
-    max-width:640px;
-    padding: 1em;
-}
-        </style>
-    </head>
-    <body>
-        <nav>
-            <a href="/recipes/" class="brand">
-                <span>{{ site.title }}</span>
-            </a>
-        </nav>
-        <main>
-            {{ content }}
-        </main>
-    </body>
+<head>
+    <title>{{ site.title  }}</title>
+    <link rel="stylesheet" href="/recipes/assets/picnic.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html, body {
+            height: auto !important;
+        }
+
+        main {
+            margin: 72px auto;
+            max-width: 640px;
+            padding: 1em;
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <a href="/recipes/" class="brand">
+        <span>{{ site.title }}</span>
+    </a>
+</nav>
+<main>
+{{ content }}
+    <footer>
+        <small>
+            The recipes on this website are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+            The code for this website is licensed under a <a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication License</a>.
+            The source code for this website can be found on <a href="https://github.com/hscells/recipes">GitHub</a>.
+        </small>
+    </footer>
+</main>
+</body>
 </html>

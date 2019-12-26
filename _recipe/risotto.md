@@ -1,9 +1,9 @@
 ---
 title: Risotto
 ingredients:
- - chilli
+ - chili
  - garlic
- - spring onions
+ - spring onion
  - spinach
  - aborio rice
  - nutritional yeast
